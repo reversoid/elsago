@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles.scss';
+import Landing from './pages/Landing';
 
 function App() {
   return (
     <>
-      hello world!
+      <Landing/>
     </>
   );
 }
