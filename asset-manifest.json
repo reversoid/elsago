@@ -1,15 +1,38 @@
 {
   "files": {
-    "main.css": "/elsago/static/css/main.073c9b0a.css",
-    "main.js": "/elsago/static/js/main.198d232f.js",
-    "static/js/787.f89fe0ef.chunk.js": "/elsago/static/js/787.f89fe0ef.chunk.js",
+    "main.css": "/elsago/static/css/main.b67667b6.css",
+    "main.js": "/elsago/static/js/main.486d840b.js",
+    "static/media/ProximaNova-RegularIt.eot": "/elsago/static/media/ProximaNova-RegularIt.06326fac74cef84929c8.eot",
+    "static/media/ProximaNova-SemiboldIt.eot": "/elsago/static/media/ProximaNova-SemiboldIt.8af498ccf8dfd815b0a1.eot",
+    "static/media/ProximaNova-RegularIt.ttf": "/elsago/static/media/ProximaNova-RegularIt.06bbc0c712151b57c466.ttf",
+    "static/media/ProximaNova-SemiboldIt.ttf": "/elsago/static/media/ProximaNova-SemiboldIt.d27ff51cc9d74bcf9d44.ttf",
+    "static/media/ProximaNova-BoldIt.eot": "/elsago/static/media/ProximaNova-BoldIt.25f472c5c68626addc8b.eot",
+    "static/media/ProximaNova-BoldIt.ttf": "/elsago/static/media/ProximaNova-BoldIt.433287a115498d3d32d1.ttf",
+    "static/media/ProximaNova-ExtrabldIt.eot": "/elsago/static/media/ProximaNova-ExtrabldIt.7683228bf9b7a5150924.eot",
+    "static/media/ProximaNova-ExtrabldIt.ttf": "/elsago/static/media/ProximaNova-ExtrabldIt.c682b911e37a8f793ae6.ttf",
+    "static/media/ProximaNova-Semibold.eot": "/elsago/static/media/ProximaNova-Semibold.4d878f520a275616509b.eot",
+    "static/media/ProximaNova-Regular.eot": "/elsago/static/media/ProximaNova-Regular.d97f8f32c098b28c3ab0.eot",
+    "static/media/ProximaNova-Semibold.ttf": "/elsago/static/media/ProximaNova-Semibold.be42827ac88aca64dbf0.ttf",
+    "static/media/ProximaNova-Regular.ttf": "/elsago/static/media/ProximaNova-Regular.b078618b41b9b6629ea0.ttf",
+    "static/media/ProximaNova-Bold.eot": "/elsago/static/media/ProximaNova-Bold.787088b281e017f8c449.eot",
+    "static/media/ProximaNova-Extrabld.eot": "/elsago/static/media/ProximaNova-Extrabld.b9fcd9fbe4d0b5e73cbd.eot",
+    "static/media/ProximaNova-Bold.ttf": "/elsago/static/media/ProximaNova-Bold.7722451a8c88b6100185.ttf",
+    "static/media/ProximaNova-Extrabld.ttf": "/elsago/static/media/ProximaNova-Extrabld.026a945d32b05c6c8710.ttf",
+    "static/media/ProximaNova-RegularIt.woff": "/elsago/static/media/ProximaNova-RegularIt.f7a8a2981d5683b22c0e.woff",
+    "static/media/ProximaNova-BoldIt.woff": "/elsago/static/media/ProximaNova-BoldIt.1391620ed4154739ece4.woff",
+    "static/media/ProximaNova-SemiboldIt.woff": "/elsago/static/media/ProximaNova-SemiboldIt.e8a0c842bee7b41d4bb6.woff",
+    "static/media/ProximaNova-ExtrabldIt.woff": "/elsago/static/media/ProximaNova-ExtrabldIt.0954bcce21b01cc52c7b.woff",
+    "static/media/ProximaNova-Regular.woff": "/elsago/static/media/ProximaNova-Regular.99528640efded3e12591.woff",
+    "static/media/ProximaNova-Bold.woff": "/elsago/static/media/ProximaNova-Bold.1f267da183b3d4fe3d5b.woff",
+    "static/media/ProximaNova-Semibold.woff": "/elsago/static/media/ProximaNova-Semibold.a71877a1eef65838ed4c.woff",
+    "static/media/ProximaNova-Extrabld.woff": "/elsago/static/media/ProximaNova-Extrabld.64f095e95e4018946cb1.woff",
+    "static/media/ElsagoLogo.svg": "/elsago/static/media/ElsagoLogo.486e5f99a59f388e148d.svg",
     "index.html": "/elsago/index.html",
-    "main.073c9b0a.css.map": "/elsago/static/css/main.073c9b0a.css.map",
-    "main.198d232f.js.map": "/elsago/static/js/main.198d232f.js.map",
-    "787.f89fe0ef.chunk.js.map": "/elsago/static/js/787.f89fe0ef.chunk.js.map"
+    "main.b67667b6.css.map": "/elsago/static/css/main.b67667b6.css.map",
+    "main.486d840b.js.map": "/elsago/static/js/main.486d840b.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.198d232f.js"
+    "static/css/main.b67667b6.css",
+    "static/js/main.486d840b.js"
   ]
 }
