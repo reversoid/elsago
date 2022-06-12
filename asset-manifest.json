@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/elsago/static/css/main.073c9b0a.css",
+    "main.js": "/elsago/static/js/main.198d232f.js",
+    "static/js/787.f89fe0ef.chunk.js": "/elsago/static/js/787.f89fe0ef.chunk.js",
+    "index.html": "/elsago/index.html",
+    "main.073c9b0a.css.map": "/elsago/static/css/main.073c9b0a.css.map",
+    "main.198d232f.js.map": "/elsago/static/js/main.198d232f.js.map",
+    "787.f89fe0ef.chunk.js.map": "/elsago/static/js/787.f89fe0ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.198d232f.js"
+  ]
+}
