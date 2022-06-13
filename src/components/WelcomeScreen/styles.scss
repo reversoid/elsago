@@ -1,0 +1,26 @@
+.bg-bitcoin {
+    background-image:url('../../static/img/bitcoinBg.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+.welcome-screen {
+    padding-top: 0;
+    padding-bottom: 0;
+    .mega-title {
+        padding-top: 5rem;
+        padding-bottom: 2.75rem;
+    }
+    .welcome-screen__description {
+        :first-child {
+            margin-bottom: 1rem;
+        }
+        :last-child {
+            margin-bottom: 4rem;
+        }
+    }
+    .btn {
+        margin-bottom: 5rem;
+    }
+}

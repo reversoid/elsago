@@ -1,0 +1,10 @@
+.about-course {
+    .about-course__description {
+        max-width: 41rem;
+        margin-left: auto;
+        margin-right: auto;
+        :not(:last-child) {
+            margin-bottom: 1rem;
+        }
+    }
+}

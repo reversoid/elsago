@@ -1,0 +1,40 @@
+.partners {
+  .partners__title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .partners__items {
+    display: flex;
+    justify-content: center;
+    :not(:last-child) {
+        margin-right: 2rem;
+    }
+    .partners__item {
+      width: 8.125rem;
+      height: 8.125rem;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    .binance {
+        background-image: url('../../static/img/partners/binance.svg');
+        background-size: 120%;
+    }
+    .huobi {
+        background-image: url('../../static/img/partners/huobi.svg');
+    }
+    .okex {
+        background-image: url('../../static/img/partners/okex.svg');
+    }
+    .tinkoff {
+        background-image: url('../../static/img/partners/tinkoff.svg');
+    }
+    .bybit {
+        background-image: url('../../static/img/partners/bybit.svg');
+    }
+    .ftx {
+        background-image: url('../../static/img/partners/ftx.svg');
+    }
+  }
+}

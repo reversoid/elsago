@@ -1,0 +1,14 @@
+.about-us {
+  p.text {
+    max-width: 41rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.bg-blurred-bitcoin {
+  background-image: url("../../static/img/blurBitcoinBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
