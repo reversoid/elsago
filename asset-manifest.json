@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/elsago/static/css/main.b67667b6.css",
-    "main.js": "/elsago/static/js/main.486d840b.js",
+    "main.css": "/elsago/static/css/main.172b2fcd.css",
+    "main.js": "/elsago/static/js/main.1df0cf29.js",
+    "static/media/bitcoinBg.jpg": "/elsago/static/media/bitcoinBg.f01cb532cc4765535889.jpg",
+    "static/media/blurBitcoinBg.jpg": "/elsago/static/media/blurBitcoinBg.6cec7cd4bf296e54ce1d.jpg",
     "static/media/ProximaNova-RegularIt.eot": "/elsago/static/media/ProximaNova-RegularIt.06326fac74cef84929c8.eot",
     "static/media/ProximaNova-SemiboldIt.eot": "/elsago/static/media/ProximaNova-SemiboldIt.8af498ccf8dfd815b0a1.eot",
     "static/media/ProximaNova-RegularIt.ttf": "/elsago/static/media/ProximaNova-RegularIt.06bbc0c712151b57c466.ttf",
@@ -26,13 +28,20 @@
     "static/media/ProximaNova-Bold.woff": "/elsago/static/media/ProximaNova-Bold.1f267da183b3d4fe3d5b.woff",
     "static/media/ProximaNova-Semibold.woff": "/elsago/static/media/ProximaNova-Semibold.a71877a1eef65838ed4c.woff",
     "static/media/ProximaNova-Extrabld.woff": "/elsago/static/media/ProximaNova-Extrabld.64f095e95e4018946cb1.woff",
+    "static/media/tinkoff.svg": "/elsago/static/media/tinkoff.7a75a1b4d2a2c8d07d50.svg",
     "static/media/ElsagoLogo.svg": "/elsago/static/media/ElsagoLogo.486e5f99a59f388e148d.svg",
+    "static/media/ftx.svg": "/elsago/static/media/ftx.f3348868713ec51d83ae.svg",
+    "static/media/bybit.svg": "/elsago/static/media/bybit.318db87305ceb59dcf50.svg",
+    "static/media/okex.svg": "/elsago/static/media/okex.d1e619b3c8af1be7a416.svg",
+    "static/media/huobi.svg": "/elsago/static/media/huobi.6c66e425e40a5f42a8d8.svg",
+    "static/media/binance.svg": "/elsago/static/media/binance.c039b597fb9021b68cb2.svg",
     "index.html": "/elsago/index.html",
-    "main.b67667b6.css.map": "/elsago/static/css/main.b67667b6.css.map",
-    "main.486d840b.js.map": "/elsago/static/js/main.486d840b.js.map"
+    "static/media/check.svg": "/elsago/static/media/check.40f2830d35d8f906e035.svg",
+    "main.172b2fcd.css.map": "/elsago/static/css/main.172b2fcd.css.map",
+    "main.1df0cf29.js.map": "/elsago/static/js/main.1df0cf29.js.map"
   },
   "entrypoints": [
-    "static/css/main.b67667b6.css",
-    "static/js/main.486d840b.js"
+    "static/css/main.172b2fcd.css",
+    "static/js/main.1df0cf29.js"
   ]
 }
