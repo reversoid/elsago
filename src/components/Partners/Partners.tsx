@@ -1,3 +1,4 @@
+import { nanoid } from "nanoid";
 import React from "react";
 import "./styles.scss";
 
@@ -42,7 +43,7 @@ export default function Partners() {
       </h2>
       <div className="partners__items">
         {partners.map((partner) => 
-          <a href={partner.link} target='_blank' rel="noreferrer">
+          <a href={partner.link} target='_blank' rel="noreferrer" key={nanoid()}>
             <div className={`partners__item ${partner.name}`}></div>
           </a>
         )}

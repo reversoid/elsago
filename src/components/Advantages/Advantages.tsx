@@ -3,8 +3,17 @@ import "./styles.scss";
 import { nanoid } from "nanoid";
 
 const groups = {
-  title: <>КОМАНДНАЯ РАБОТА В <span className="text-blue"> ГРУППАХ</span></>,
-  description: <>Наш опыт показывает, что именно за счет групповой&nbsp;работы быстрее достигаются высокие результаты.</>,
+  title: (
+    <>
+      КОМАНДНАЯ РАБОТА В <span className="color-blue"> ГРУППАХ</span>
+    </>
+  ),
+  description: (
+    <>
+      Наш опыт показывает, что именно за счет групповой&nbsp;работы быстрее
+      достигаются высокие результаты.
+    </>
+  ),
   parts: [
     {
       img: "first",
@@ -22,8 +31,18 @@ const groups = {
 };
 
 const curator = {
-  title: <>ЛИЧНЫЙ<span className="text-blue"> КУРАТОР</span></>,
-  description: <>У вас будет свой куратор. <br/> Больше, чем просто модератор или специалист тех. поддержки. Это ваш наставник, который будет помогать вам осваивать курс, поддерживать, направлять вас и радоваться вашим успехам!</>,
+  title: (
+    <>
+      ЛИЧНЫЙ<span className="color-blue"> КУРАТОР</span>
+    </>
+  ),
+  description: (
+    <>
+      У вас будет свой куратор. <br /> Больше, чем просто модератор или
+      специалист тех. поддержки. Это ваш наставник, который будет помогать вам
+      осваивать курс, поддерживать, направлять вас и радоваться вашим успехам!
+    </>
+  ),
   parts: [
     {
       img: "fourth",
@@ -48,40 +67,32 @@ const topics = [groups, curator];
 
 export default function Advantages() {
   return (
-    <section className="container advantages">
-      {topics.map((topic) => (
-        <div className="topic" key={nanoid()}>
-          <h2 className="title">{topic.title}</h2>
-          <h3 className="text-larger">{topic.description}</h3>
-          {topic.parts.map((part) => (
-            <>
-              <div className={`topic__img ${part.img}`}></div>
+    <>
+      <section className="container advantages" key={nanoid()}>
+        <h2 className="title">{groups.title}</h2>
+        <h3 className="text-larger">{groups.description}</h3>
+        <div className="advantages__list">
+          {groups.parts.map((part) => (
+            <div className="advantage advantage-col" key={nanoid()}>
+              <div className={`advantages__img ${part.img}`}></div>
               <p className="text text-regular">{part.text}</p>
-            </>
+            </div>
           ))}
         </div>
-      ))}
-      {/* <h2 className="title">
-        КОМАНДНАЯ РАБОТА В <span className="color-blue"> ГРУППАХ</span>
-      </h2>
-      <h3 className="text-larger">
-        Наш опыт показывает, что именно за счет групповой&nbsp;работы быстрее
-        достигаются высокие результаты.
-      </h3>
-      <ul className="groups__container">
-        <li className="groups__item">
-          <div className="item__img first"></div>
-          <p className="text"></p>
-        </li>
-        <li className="groups__item">
-          <div className="item__img second"></div>
-          <p className="text"></p>
-        </li>
-        <li className="groups__item">
-          <div className="item__img third"></div>
-          <p className="text"></p>
-        </li>
-      </ul> */}
-    </section>
+      </section>
+
+      <section className="container advantages" key={nanoid()}>
+        <h2 className="title">{curator.title}</h2>
+        <h3 className="text-larger">{curator.description}</h3>
+        <div className="advantages__list">
+          {curator.parts.map((part) => (
+            <div className="advantage advantage-row" key={nanoid()}>
+              <div className={`advantages__img ${part.img}`}></div>
+              <p className="text text-regular">{part.text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    </>
   );
 }
