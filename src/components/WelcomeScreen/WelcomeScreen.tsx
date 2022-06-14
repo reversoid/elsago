@@ -6,7 +6,7 @@ export default function WelcomeScreen() {
     
         <section className="welcome-screen container bg-bitcoin">
           <h1 className="mega-title">
-            <span className="color-black">КУРС:</span><br/>
+            <span className="color-black">КУРС:xxx</span><br/>
             <span className="color-white">КРИПТОСТАРТ</span>
           </h1>
           <div className="welcome-screen__description">
