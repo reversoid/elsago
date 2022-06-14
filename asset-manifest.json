@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.76282207.css",
-    "main.js": "/static/js/main.1df0cf29.js",
-    "static/media/bitcoinBg.jpg": "/static/media/bitcoinBg.f01cb532cc4765535889.jpg",
-    "static/media/blurBitcoinBg.jpg": "/static/media/blurBitcoinBg.6cec7cd4bf296e54ce1d.jpg",
+    "main.css": "/static/css/main.e80bd1b0.css",
+    "main.js": "/static/js/main.3b2cb676.js",
+    "static/media/bitcoinBg.jpg": "/static/media/bitcoinBg.c1e1a8480f691cd13eb1.jpg",
     "static/media/ProximaNova-RegularIt.eot": "/static/media/ProximaNova-RegularIt.06326fac74cef84929c8.eot",
     "static/media/ProximaNova-SemiboldIt.eot": "/static/media/ProximaNova-SemiboldIt.8af498ccf8dfd815b0a1.eot",
     "static/media/ProximaNova-RegularIt.ttf": "/static/media/ProximaNova-RegularIt.06bbc0c712151b57c466.ttf",
@@ -28,20 +27,21 @@
     "static/media/ProximaNova-Bold.woff": "/static/media/ProximaNova-Bold.1f267da183b3d4fe3d5b.woff",
     "static/media/ProximaNova-Semibold.woff": "/static/media/ProximaNova-Semibold.a71877a1eef65838ed4c.woff",
     "static/media/ProximaNova-Extrabld.woff": "/static/media/ProximaNova-Extrabld.64f095e95e4018946cb1.woff",
-    "static/media/tinkoff.svg": "/static/media/tinkoff.7a75a1b4d2a2c8d07d50.svg",
-    "static/media/ElsagoLogo.svg": "/static/media/ElsagoLogo.486e5f99a59f388e148d.svg",
-    "static/media/ftx.svg": "/static/media/ftx.f3348868713ec51d83ae.svg",
-    "static/media/bybit.svg": "/static/media/bybit.318db87305ceb59dcf50.svg",
+    "static/media/tinkoff.svg": "/static/media/tinkoff.e1ed32553b07b5086696.svg",
+    "static/media/ElsagoLogo.svg": "/static/media/ElsagoLogo.0d99d54f63e31f1ae580.svg",
+    "static/media/blurBitcoinBg.jpg": "/static/media/blurBitcoinBg.74d7aa9c03be02b739a1.jpg",
+    "static/media/ftx.svg": "/static/media/ftx.58731e7eda0b6c842a15.svg",
+    "static/media/bybit.svg": "/static/media/bybit.ca49a0b47801bcc86213.svg",
     "static/media/okex.svg": "/static/media/okex.d1e619b3c8af1be7a416.svg",
     "static/media/huobi.svg": "/static/media/huobi.6c66e425e40a5f42a8d8.svg",
     "static/media/binance.svg": "/static/media/binance.c039b597fb9021b68cb2.svg",
     "index.html": "/index.html",
-    "static/media/check.svg": "/static/media/check.40f2830d35d8f906e035.svg",
-    "main.76282207.css.map": "/static/css/main.76282207.css.map",
-    "main.1df0cf29.js.map": "/static/js/main.1df0cf29.js.map"
+    "static/media/check.svg": "/static/media/check.4ea7d2976bb050bbb140.svg",
+    "main.e80bd1b0.css.map": "/static/css/main.e80bd1b0.css.map",
+    "main.3b2cb676.js.map": "/static/js/main.3b2cb676.js.map"
   },
   "entrypoints": [
-    "static/css/main.76282207.css",
-    "static/js/main.1df0cf29.js"
+    "static/css/main.e80bd1b0.css",
+    "static/js/main.3b2cb676.js"
   ]
 }
