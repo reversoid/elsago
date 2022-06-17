@@ -1,0 +1,25 @@
+.files {
+    display: grid;
+
+    .file {
+        display: flex;
+        max-width: 21rem;
+
+        .file__img {
+            margin-right: 0.625rem;
+            width: 4rem;
+            height: 4rem;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url('../../static/img/pdf.svg');
+            flex-shrink: 0;
+        }
+        .file__decs {
+            max-width: 17rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

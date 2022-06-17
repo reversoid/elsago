@@ -38,7 +38,7 @@ export default function Partners() {
   return (
     <section className="partners container">
       <h2 className="partners__title text-center">
-        НАШИ КЛЮЧЕВЫЕ ПАРТНЕРЫ - ЭТО КРУПНЕЙШИЕ КОМПАНИИ И БИРЖИ В СФЕРЕ
+        НАШИ КЛЮЧЕВЫЕ ПАРТНЕРЫ - ЭТО<br/>КРУПНЕЙШИЕ КОМПАНИИ И БИРЖИ В СФЕРЕ
         КРИПТОВАЛЮТ
       </h2>
       <div className="partners__items">
