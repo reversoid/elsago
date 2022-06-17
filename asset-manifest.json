@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e80bd1b0.css",
-    "main.js": "/static/js/main.3b2cb676.js",
+    "main.css": "/static/css/main.af67e7ce.css",
+    "main.js": "/static/js/main.c3cf9462.js",
     "static/media/bitcoinBg.jpg": "/static/media/bitcoinBg.c1e1a8480f691cd13eb1.jpg",
     "static/media/ProximaNova-RegularIt.eot": "/static/media/ProximaNova-RegularIt.06326fac74cef84929c8.eot",
     "static/media/ProximaNova-SemiboldIt.eot": "/static/media/ProximaNova-SemiboldIt.8af498ccf8dfd815b0a1.eot",
@@ -30,6 +30,7 @@
     "static/media/tinkoff.svg": "/static/media/tinkoff.e1ed32553b07b5086696.svg",
     "static/media/ElsagoLogo.svg": "/static/media/ElsagoLogo.0d99d54f63e31f1ae580.svg",
     "static/media/blurBitcoinBg.jpg": "/static/media/blurBitcoinBg.74d7aa9c03be02b739a1.jpg",
+    "static/media/pdf.svg": "/static/media/pdf.48060a70c89f4caa5a5e.svg",
     "static/media/ftx.svg": "/static/media/ftx.58731e7eda0b6c842a15.svg",
     "static/media/bybit.svg": "/static/media/bybit.ca49a0b47801bcc86213.svg",
     "static/media/okex.svg": "/static/media/okex.d1e619b3c8af1be7a416.svg",
@@ -37,11 +38,11 @@
     "static/media/binance.svg": "/static/media/binance.c039b597fb9021b68cb2.svg",
     "index.html": "/index.html",
     "static/media/check.svg": "/static/media/check.4ea7d2976bb050bbb140.svg",
-    "main.e80bd1b0.css.map": "/static/css/main.e80bd1b0.css.map",
-    "main.3b2cb676.js.map": "/static/js/main.3b2cb676.js.map"
+    "main.af67e7ce.css.map": "/static/css/main.af67e7ce.css.map",
+    "main.c3cf9462.js.map": "/static/js/main.c3cf9462.js.map"
   },
   "entrypoints": [
-    "static/css/main.e80bd1b0.css",
-    "static/js/main.3b2cb676.js"
+    "static/css/main.af67e7ce.css",
+    "static/js/main.c3cf9462.js"
   ]
 }
