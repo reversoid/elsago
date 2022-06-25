@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.af67e7ce.css",
-    "main.js": "/static/js/main.c3cf9462.js",
+    "main.css": "/static/css/main.75a74ea2.css",
+    "main.js": "/static/js/main.9d23c543.js",
     "static/media/bitcoinBg.jpg": "/static/media/bitcoinBg.c1e1a8480f691cd13eb1.jpg",
     "static/media/ProximaNova-RegularIt.eot": "/static/media/ProximaNova-RegularIt.06326fac74cef84929c8.eot",
     "static/media/ProximaNova-SemiboldIt.eot": "/static/media/ProximaNova-SemiboldIt.8af498ccf8dfd815b0a1.eot",
@@ -31,18 +31,30 @@
     "static/media/ElsagoLogo.svg": "/static/media/ElsagoLogo.0d99d54f63e31f1ae580.svg",
     "static/media/blurBitcoinBg.jpg": "/static/media/blurBitcoinBg.74d7aa9c03be02b739a1.jpg",
     "static/media/pdf.svg": "/static/media/pdf.48060a70c89f4caa5a5e.svg",
+    "static/media/second.svg": "/static/media/second.3ed68a56d7ca18f9876a.svg",
     "static/media/ftx.svg": "/static/media/ftx.58731e7eda0b6c842a15.svg",
+    "static/media/third.svg": "/static/media/third.6aaf59ac99b7f903108e.svg",
+    "static/media/first.svg": "/static/media/first.a3be9ffbb7ac2c9bd14c.svg",
     "static/media/bybit.svg": "/static/media/bybit.ca49a0b47801bcc86213.svg",
+    "static/media/shark.svg": "/static/media/shark.5c176c5efe1f34f482a1.svg",
     "static/media/okex.svg": "/static/media/okex.d1e619b3c8af1be7a416.svg",
+    "static/media/fifth.svg": "/static/media/fifth.4aef52f7aa3358722153.svg",
     "static/media/huobi.svg": "/static/media/huobi.6c66e425e40a5f42a8d8.svg",
+    "static/media/hamster.svg": "/static/media/hamster.8ff4012876f78ae37c1e.svg",
+    "static/media/whale.svg": "/static/media/whale.27519d6b50989147bb2f.svg",
+    "static/media/satoshi.svg": "/static/media/satoshi.58390957999569ddd5a4.svg",
+    "static/media/seventh.svg": "/static/media/seventh.c7356a71dbe67fb0c7e0.svg",
     "static/media/binance.svg": "/static/media/binance.c039b597fb9021b68cb2.svg",
+    "static/media/arrow.svg": "/static/media/arrow.3da0abc2747fae6b8663.svg",
+    "static/media/fourth.svg": "/static/media/fourth.caa7ac95229989fe1749.svg",
     "index.html": "/index.html",
+    "static/media/sixth.svg": "/static/media/sixth.248ced626044c17067f0.svg",
     "static/media/check.svg": "/static/media/check.4ea7d2976bb050bbb140.svg",
-    "main.af67e7ce.css.map": "/static/css/main.af67e7ce.css.map",
-    "main.c3cf9462.js.map": "/static/js/main.c3cf9462.js.map"
+    "main.75a74ea2.css.map": "/static/css/main.75a74ea2.css.map",
+    "main.9d23c543.js.map": "/static/js/main.9d23c543.js.map"
   },
   "entrypoints": [
-    "static/css/main.af67e7ce.css",
-    "static/js/main.c3cf9462.js"
+    "static/css/main.75a74ea2.css",
+    "static/js/main.9d23c543.js"
   ]
 }
