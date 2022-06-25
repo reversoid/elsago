@@ -1,0 +1,140 @@
+$gold: #EFC942;
+$blue: #779efc;
+$dark: #2E2F32;
+
+.color-gold {
+    color: $gold;
+}
+.color-blue {
+    color: $blue;
+}
+
+.tariffs {
+    .column-container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+
+        display: flex;
+        .tariff:not(:last-child) {
+            margin-right: 2rem;
+        }
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .tariff {
+        flex-shrink: 0;
+        background-color: $dark;
+        max-width: 21rem;
+        height: 48rem;
+        cursor: default;
+        
+        border-radius: 0.75rem;
+        position: relative;
+        padding: 5rem 1.25rem;
+        padding-bottom: 4rem;
+        transition: 0.1s linear;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &:hover {
+            box-shadow: 0px 0px 1rem black;
+        }
+
+        .btn.bg-blue {
+            background-color: #779efc;
+            border-radius: 0.5rem;
+            position: absolute;
+            bottom: -1.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: 0.1s linear;
+            &:hover {
+                box-shadow: 0 0 100rem $gold inset;
+            }
+        }
+        .mb1 {
+            margin-bottom: 1rem;
+        }
+        .mb2 {
+            margin-bottom: 2rem;
+        }
+        .mb0 {
+            margin-bottom: 0;
+        }
+        .img {
+            width: 8.125rem;
+            height: 7rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -3rem;
+            &.hamster-img {
+                background-image: url('../../static/img/tariffs/hamster.svg');
+            }
+            &.shark-img {
+                background-image: url('../../static/img/tariffs/shark.svg');
+                background-size: 100%;
+            }
+            &.whale-img {
+                background-image: url('../../static/img/tariffs/whale.svg');
+            }
+            &.satoshi-img {
+                background-image: url('../../static/img/tariffs/satoshi.svg');
+            }
+        }
+
+        .tariff__title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+        
+        .tariff__info {
+            font-size: 1.1rem;
+            display: block;
+            margin-right: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+            
+
+            .tariff__text {
+                font-weight: normal;
+                font-size: 1rem;
+                line-height: 120%;
+                margin-bottom: 1rem;
+            }
+            
+            .dropdown-header {
+                font-size: 0.9375rem;
+                transition: 0.05s 0s ease-in-out;
+            }
+        }
+        .tariff__price {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            // margin-left: auto;
+            // margin-right: auto;
+        }
+
+        .prize {
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: $blue;
+            margin-top: 2rem;
+            display: inline-block;
+        }
+        .satoshi__get {
+            margin-bottom: 0.5rem;
+            font-size: 0.8rem;
+            font-weight: bold;
+            line-height: 120%;
+            display: inline-block;
+        }
+    }
+}

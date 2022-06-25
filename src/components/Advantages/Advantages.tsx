@@ -70,7 +70,7 @@ export default function Advantages() {
     <>
       <section className="container advantages" key={nanoid()}>
         <h2 className="title">{groups.title}</h2>
-        <h3 className="text-larger">{groups.description}</h3>
+        <h3 className="text-larger fw-600">{groups.description}</h3>
         <div className="advantages__list">
           {groups.parts.map((part) => (
             <div className="advantage advantage-col" key={nanoid()}>
@@ -83,7 +83,7 @@ export default function Advantages() {
 
       <section className="container advantages" key={nanoid()}>
         <h2 className="title">{curator.title}</h2>
-        <h3 className="text-larger">{curator.description}</h3>
+        <h3 className="text-larger fw-600">{curator.description}</h3>
         <div className="advantages__list">
           {curator.parts.map((part) => (
             <div className="advantage advantage-row" key={nanoid()}>

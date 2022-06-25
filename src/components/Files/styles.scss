@@ -1,9 +1,30 @@
 .files {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    border-radius: 1rem;
 
+    display: flex;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1100px) {
+        grid-template-columns: 1fr 1fr;
+    }
+    @media screen and (max-width: 745px) {
+        grid-template-columns: 1fr;
+
+    }
     .file {
+        border-radius: inherit;
+        transition: 0.1s cubic-bezier(.17,.67,.83,.67);
+        &:hover {
+            background: rgb(230, 230, 230);
+        }
         display: flex;
-        max-width: 21rem;
+        min-width: 22rem;
+        max-width: 23rem;
+        cursor: default;
+
 
         .file__img {
             margin-right: 0.625rem;
@@ -15,7 +36,8 @@
             background-image: url('../../static/img/pdf.svg');
             flex-shrink: 0;
         }
-        .file__decs {
+        .file__desc {
+                         
             max-width: 17rem;
             display: flex;
             align-items: center;

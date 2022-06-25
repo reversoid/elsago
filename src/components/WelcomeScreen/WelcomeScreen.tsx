@@ -19,7 +19,7 @@ export default function WelcomeScreen() {
               и получите наш специальный подарок!
             </p>
           </div>
-          <button className="welcome-screen__btn btn">Записаться на курс</button>
+          <button className="welcome-screen__btn btn">записаться на курс</button>
         </section>   
   )
 }
