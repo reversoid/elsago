@@ -1,3 +1,41 @@
 .private-club {
     background-color: #2E2F32;
 }
+.mb1 {
+    margin-bottom: 1rem;
+}
+.private-club__options {
+    display: flex;
+    justify-content: space-between;
+}
+.private-club__option {
+    .private-club__title {
+        font-size: 2.25rem;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 2rem;
+    }
+    .private-club__text {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+    ul {
+        max-width: 26.25rem;
+        li {
+            &::before {
+                display: inline-block;
+                content: '';
+                width: 0.875rem;
+                height: 0.875rem;
+                background-color: #779EFC;
+                border-radius: 50%;
+                margin-right: 0.625rem;
+            }
+            position: relative;
+            font-size: 20px;
+            margin-bottom: 0.8rem;
+            line-height: 120%;
+        }
+    }
+    
+}

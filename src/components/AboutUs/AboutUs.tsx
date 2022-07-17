@@ -3,7 +3,7 @@ import "./styles.scss";
 
 export default function AboutUs() {
   return (
-    <section className="about-us container bg-blurred-bitcoin color-white">
+    <section className="about-us container bg-blurred-bitcoin color-white br1">
       <h2 className="title text-center">О НАС</h2>
       <p className="text text-regular">
         <span className="text-bold">ELSAGO Crypto</span> появилась в 2021 году,

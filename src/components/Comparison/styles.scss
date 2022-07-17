@@ -1,0 +1,83 @@
+.comparison {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem;
+
+    .comparison__item {
+        width: 17rem;
+        border-radius: 1rem;
+        .comparison-item__header {
+            padding-top: 1rem;
+            padding-bottom: 0.625rem;
+            height: 8rem;
+            background-color: #779EFC;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-top-right-radius: inherit;
+            border-top-left-radius: inherit;
+            .comparison-title {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: white;
+                text-align: center;
+                letter-spacing: 0.17rem;
+                margin-bottom: 0.5rem;
+            }
+            .comparison-img {
+                height: 4rem;
+                width: auto;
+                width: 100%;
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                &.hamster-w {
+                    background-image: url('../../static/img/tariffs/hamster-w.svg');
+                }
+                &.shark-w {
+                    background-image: url('../../static/img/tariffs/shark-w.svg');
+                }
+                &.whale-w {
+                    background-image: url('../../static/img/tariffs/whale-w.svg');
+                }
+                &.satoshi-w {
+                    background-image: url('../../static/img/tariffs/satishi-w.svg');
+                }
+            }
+        }
+        .comparison-item__body {
+            padding: 1.7rem 1.5rem 2.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #2E2F32;
+            border-bottom-left-radius: inherit;
+            border-bottom-right-radius: inherit;
+
+            .comparison-points {
+                .comparison-point {
+                    margin-bottom: 2rem;
+                    list-style-image: url('../../static/img/check-w.svg');
+                    text-align: center;
+                    list-style-position: inside;
+                    line-height: 120%;
+
+                    &::marker {
+                        font-size: 1rem;
+                    }
+                }
+            }
+            .comparison-price {
+                font-size: 2.25rem;
+                font-weight: bold;
+                &::after {
+                    content: attr(data-rub);
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                }
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

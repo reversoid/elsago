@@ -3,7 +3,7 @@ import "./styles.scss";
 
 export default function AboutCourse() {
   return (
-    <section className="about-course container bg-blurred-bitcoin color-white">
+    <section className="about-course container bg-blurred-bitcoin color-white br1">
       <h2 className="title text-center">О КУРСЕ</h2>
       <div className="about-course__description">
         <p className="text text-regular">
