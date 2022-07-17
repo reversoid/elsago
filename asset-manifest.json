@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c4bf9f4.css",
+    "main.css": "/static/css/main.e14b5afe.css",
     "main.js": "/static/js/main.65401997.js",
     "static/media/bitcoinBg.jpg": "/static/media/bitcoinBg.c1e1a8480f691cd13eb1.jpg",
     "static/media/ProximaNova-RegularIt.eot": "/static/media/ProximaNova-RegularIt.06326fac74cef84929c8.eot",
@@ -55,11 +55,11 @@
     "static/media/sixth.svg": "/static/media/sixth.248ced626044c17067f0.svg",
     "static/media/check.svg": "/static/media/check.4ea7d2976bb050bbb140.svg",
     "static/media/check-w.svg": "/static/media/check-w.3359c416751a9a9eb34d.svg",
-    "main.0c4bf9f4.css.map": "/static/css/main.0c4bf9f4.css.map",
+    "main.e14b5afe.css.map": "/static/css/main.e14b5afe.css.map",
     "main.65401997.js.map": "/static/js/main.65401997.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c4bf9f4.css",
+    "static/css/main.e14b5afe.css",
     "static/js/main.65401997.js"
   ]
 }
